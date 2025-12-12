@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '$(/agent/_work/1/s/)MyMvcApp/Dockerfile'
+        dockerfile: '$(/agent/_work/1/s/)mymvcapp/Dockerfile'
         tags: |
           $(tag)
