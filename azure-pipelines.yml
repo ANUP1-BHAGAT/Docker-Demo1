@@ -45,7 +45,7 @@ stages:
     - task: Docker@2
       displayName: Build and Push Docker Image
       inputs:
-        containerRegistry: 'P5-Real Hands-On Labs(80ea84e8-afce-4851-928a-9e2219724c69)' # replace with your service connection
+        containerRegistry: 'P5-Real Hands-On Labs' # replace with your service connection
         repository: 'mymvcapp1'                           # your Docker image name
         command: 'buildAndPush'
         dockerfile: 'DockerDeployDemo1/Dockerfile'               # path relative to repo root
